@@ -1,6 +1,6 @@
 # Pull base image
-From tomcat:8-jre8
+From java:8
 
 # Maintainer
 MAINTAINER "gkpilania@gmail.com"
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./gradle-wrapper.jar /usr/local/tomcat/webapps
