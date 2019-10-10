@@ -6,6 +6,6 @@ WORKDIR /
 MAINTAINER "gkpilania@gmail.com"
 
 ADD gradle-wrapper.jar gradle-wrapper.jar
-ADD gradle-wrapper.properties gradle-wrapper.properties
+# ADD gradle-wrapper.properties gradle-wrapper.properties
 EXPOSE 8081
 CMD java - jar gradle-wrapper.jar
